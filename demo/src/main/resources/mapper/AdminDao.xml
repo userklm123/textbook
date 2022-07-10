@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.demo.dao.AdminDao">
+
+    <resultMap id="BaseResultMap" type="com.test.demo.entity.Admin">
+        <!--@Table admin-->
+        <result property="adminId" column="admin_id" jdbcType="INTEGER"/>
+        <result property="adminPw" column="admin_pw" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="BaseResultMap">
+        select
+          admin_id, admin_pw
+        from admin
+        where admin_id = #{adminId}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="BaseResultMap">
+        select
+          admin_id, admin_pw
+        from admin
+        <where>
+            <if test="adminId != null">
+                and admin_id = #{adminId}
+            </if>
+            <if test="adminPw != null">
+                and admin_pw = #{adminPw}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from admin
+        <where>
+            <if test="adminId != null">
+                and admin_id = #{adminId}
+            </if>
+            <if test="adminPw != null">
+                and admin_pw = #{adminPw}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="adminId" useGeneratedKeys="true">
+        insert into admin(admin_pw)
+        values (#{adminPw})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="adminId" useGeneratedKeys="true">
+        insert into admin(admin_pw)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.adminPw})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="adminId" useGeneratedKeys="true">
+        insert into admin(admin_pw)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.adminPw})
+        </foreach>
+        on duplicate key update
+        admin_pw = values(admin_pw)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update admin
+        <set>
+            <if test="adminPw != null">
+                admin_pw = #{adminPw},
+            </if>
+        </set>
+        where admin_id = #{adminId}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from admin where admin_id = #{adminId}
+    </delete>
+
+</mapper>
+
