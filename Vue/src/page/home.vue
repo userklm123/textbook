@@ -44,6 +44,23 @@
 					  adminId:"",
 					  adminPw:"",
 					  },
+				studentUser:{
+			  	  studentId:"",
+			  	  studentPw:"",
+			  	  },
+	    	    teacherUser:{
+			      teacherId:"",
+			      teacherPw:"",
+			      },
+				departmentUser:{
+				  departmentId:"",
+				  departmentPw:"",
+				  },
+	 		    sectionUser:{
+			      departmentId:"",
+			      departmentPw:"",
+				  department:"",
+			      },
 				}
 		},
 		methods: {
@@ -56,36 +73,87 @@
 					}); */
 			},
 			loginClick(){
-				if(this.inspectPrograme=="学生"){
-				  
-				}
-				else if(this.inspectPrograme=="老师"){
-			      
-			    }
-				else if(this.inspectPrograme=="系部"){
-				  
-				}
-				else if(this.inspectPrograme=="教材部"){
-				  
-				}
+				if(this.userId=="") alert("用户名ID不能为空!");
+				else if(this.userPw=="") alert("密码不能为空!");
 				else{
-				    let data = {
-				  		adminId :this.userId,
-				  		adminPw :this.userPw,
-				  	}
-				    getAdminById(data).then((res) => {
-				  	  	console.log(res)	
-						this.adminUser=res;
-				  	  })
-					setTimeout(() => {
-					if(this.adminUser.adminPw==this.userPw) this.$router.push({path:'/adminHome'});
-					else alert("用户名或密码错误！");// 方法区
-					}, 50);
-				}
+				 if(this.inspectPrograme=="学生"){
+					 let data = {
+						 studentId :this.userId,
+				 		 studentPw :this.userPw,
+					 }
+					 getStudentById(data).then((res) => {
+					  	 console.log(res)	
+						 this.studentUser=res;
+					   })
+					 setTimeout(() => {
+					 if(this.studentUser.studentPw==this.userPw) this.$router.push({path:'/studentHome'});
+					 else alert("用户名或密码错误！");// 方法区
+					 }, 50);
+				 }
+				 else if(this.inspectPrograme=="老师"){
+				 	 let data = {
+						 teacherId :this.userId,
+						 teacherPw :this.userPw,
+					 }
+					 getTeacherById(data).then((res) => {
+					  	 console.log(res)	
+						 this.teacherUser=res;
+					   })
+					 setTimeout(() => {
+					 if(this.teacherUser.teacherPw==this.userPw) this.$router.push({path:'/teacherHome'});
+					 else alert("用户名或密码错误！");// 方法区
+					 }, 50);
+			      
+			     }
+				 else if(this.inspectPrograme=="系部"){
+					 let data = {
+						 departmentId :this.userId,
+						 departmentPw :this.userPw,
+					 }
+					 getDepartmentById(data).then((res) => {
+					  	 console.log(res)	
+						 this.departmentUser=res;
+					   })
+					 setTimeout(() => {
+					 if(this.departmentUser.departmentPw==this.userPw) this.$router.push({path:'/departmentHome'});
+					 else alert("用户名或密码错误！");// 方法区
+					 }, 50);
+				  
+				 }
+				 else if(this.inspectPrograme=="教材部"){
+					 let data = {
+						 departmentId :this.userId,
+						 departmentPw :this.userPw,
+					 }
+					 getDepartmentById(data).then((res) => {
+					  	 console.log(res)	
+						 this.sectionUser=res;
+					   })
+					 setTimeout(() => {
+					 if(this.sectionUser.departmentPw==this.userPw&&this.sectionUser.department=="教材科") this.$router.push({path:'/sectionHome'});
+					 else alert("用户名或密码错误！");// 方法区
+					 }, 50);
+				  
+				 }
+				 else{
+				     let data = {
+				  		 adminId :this.userId,
+				  		 adminPw :this.userPw,
+				  	 }
+				     getAdminById(data).then((res) => {
+				  	  	 console.log(res)	
+						 this.adminUser=res;
+				  	   })
+					 setTimeout(() => {
+					 if(this.adminUser.adminPw==this.userPw) this.$router.push({path:'/adminHome'});
+					 else alert("用户名或密码错误！");// 方法区
+					 }, 50);
+				 }
 					//条件筛选遍历
 					/* let filterArr = this.docList.filter((item, index) => {
 						return item.docId % 5 == 0;
 					}); */
+			    }
 			},
 			           
 		},
