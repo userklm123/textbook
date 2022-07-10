@@ -1,0 +1,138 @@
+[INFO]2022-07-10 10:54:46,352 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 4608 (D:\mybatis\vue-ssm3\demo\target\classes started by 12094 in D:\mybatis\vue-ssm3\demo)
+[INFO]2022-07-10 10:54:46,354 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-10 10:54:46,466 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-10 10:54:46,467 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-10 10:54:48,999 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-10 10:54:49,000 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-10 10:54:49,000 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-10 10:54:49,001 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-10 10:54:49,022 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-10 10:54:49,035 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-10 10:54:49,037 - Starting service [Tomcat]
+[INFO]2022-07-10 10:54:49,037 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-10 10:54:50,616 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-10 10:54:50,616 - Root WebApplicationContext: initialization completed in 4148 ms
+[INFO]2022-07-10 10:54:51,944 - Adding welcome page template: index
+[INFO]2022-07-10 10:54:51,960 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 25880 (D:\mybatis\vue-ssm3\demo\target\classes started by 12094 in D:\mybatis\vue-ssm3\demo)
+[INFO]2022-07-10 10:54:51,962 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-10 10:54:52,059 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-10 10:54:52,059 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-10 10:54:52,432 - LiveReload server is running on port 35729
+[INFO]2022-07-10 10:54:52,462 - Starting ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-10 10:54:52,506 - Tomcat started on port(s): 8023 (http) with context path ''
+[INFO]2022-07-10 10:54:52,574 - Started DemoApplication in 7.158 seconds (JVM running for 12.309)
+[INFO]2022-07-10 10:54:54,616 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-10 10:54:54,617 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-10 10:54:54,617 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-10 10:54:54,617 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-10 10:54:54,622 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-10 10:54:54,632 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-10 10:54:54,633 - Starting service [Tomcat]
+[INFO]2022-07-10 10:54:54,634 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-10 10:54:56,064 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-10 10:54:56,065 - Root WebApplicationContext: initialization completed in 4005 ms
+[INFO]2022-07-10 10:54:56,974 - Adding welcome page template: index
+[WARN]2022-07-10 10:54:57,268 - Unable to start LiveReload server
+[INFO]2022-07-10 10:54:57,294 - Starting ProtocolHandler ["http-nio-8023"]
+[WARN]2022-07-10 10:54:57,301 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8023 is already in use
+[INFO]2022-07-10 10:54:57,310 - Pausing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-10 10:54:57,311 - Stopping service [Tomcat]
+[INFO]2022-07-10 10:54:57,316 - Stopping ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-10 10:54:57,317 - Destroying ProtocolHandler ["http-nio-8023"]
+[ERROR]2022-07-10 10:54:57,443 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8023 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8023 or configure this application to listen on another port.
+
+[INFO]2022-07-10 10:55:12,051 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 25664 (D:\mybatis\vue-ssm3\demo\target\classes started by 12094 in D:\mybatis\vue-ssm3\demo)
+[INFO]2022-07-10 10:55:12,053 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-10 10:55:12,121 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-10 10:55:12,121 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-10 10:55:14,073 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-10 10:55:14,074 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-10 10:55:14,074 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-10 10:55:14,074 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-10 10:55:14,078 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-10 10:55:14,086 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-10 10:55:14,087 - Starting service [Tomcat]
+[INFO]2022-07-10 10:55:14,087 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-10 10:55:14,482 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-10 10:55:14,483 - Root WebApplicationContext: initialization completed in 2361 ms
+[INFO]2022-07-10 10:55:15,404 - Adding welcome page template: index
+[INFO]2022-07-10 10:55:15,667 - LiveReload server is running on port 35729
+[INFO]2022-07-10 10:55:15,681 - Starting ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-10 10:55:15,710 - Tomcat started on port(s): 8023 (http) with context path ''
+[INFO]2022-07-10 10:55:15,766 - Started DemoApplication in 4.615 seconds (JVM running for 6.98)
+[INFO]2022-07-10 10:55:19,901 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 24560 (D:\mybatis\vue-ssm3\demo\target\classes started by 12094 in D:\mybatis\vue-ssm3\demo)
+[INFO]2022-07-10 10:55:19,902 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-10 10:55:19,959 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-10 10:55:19,959 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-10 10:55:21,945 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-10 10:55:21,946 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-10 10:55:21,946 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-10 10:55:21,947 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-10 10:55:21,951 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-10 10:55:21,959 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-10 10:55:21,959 - Starting service [Tomcat]
+[INFO]2022-07-10 10:55:21,960 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-10 10:55:22,383 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-10 10:55:22,383 - Root WebApplicationContext: initialization completed in 2423 ms
+[INFO]2022-07-10 10:55:23,256 - Adding welcome page template: index
+[WARN]2022-07-10 10:55:23,518 - Unable to start LiveReload server
+[INFO]2022-07-10 10:55:23,540 - Starting ProtocolHandler ["http-nio-8023"]
+[WARN]2022-07-10 10:55:23,546 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8023 is already in use
+[INFO]2022-07-10 10:55:23,553 - Pausing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-10 10:55:23,553 - Stopping service [Tomcat]
+[INFO]2022-07-10 10:55:23,559 - Stopping ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-10 10:55:23,560 - Destroying ProtocolHandler ["http-nio-8023"]
+[ERROR]2022-07-10 10:55:23,632 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8023 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8023 or configure this application to listen on another port.
+
+[INFO]2022-07-10 10:55:49,835 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 23756 (D:\mybatis\vue-ssm3\demo\target\classes started by 12094 in D:\mybatis\vue-ssm3\demo)
+[INFO]2022-07-10 10:55:49,837 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-10 10:55:49,932 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-10 10:55:49,933 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-10 10:55:52,096 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-10 10:55:52,097 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-10 10:55:52,098 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-10 10:55:52,098 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-10 10:55:52,104 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-10 10:55:52,117 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-10 10:55:52,118 - Starting service [Tomcat]
+[INFO]2022-07-10 10:55:52,119 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-10 10:55:52,579 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-10 10:55:52,580 - Root WebApplicationContext: initialization completed in 2646 ms
+[INFO]2022-07-10 10:55:53,375 - Adding welcome page template: index
+[INFO]2022-07-10 10:55:53,604 - LiveReload server is running on port 35729
+[INFO]2022-07-10 10:55:53,622 - Starting ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-10 10:55:53,659 - Tomcat started on port(s): 8023 (http) with context path ''
+[INFO]2022-07-10 10:55:53,695 - Started DemoApplication in 4.588 seconds (JVM running for 7.274)
+[INFO]2022-07-10 10:56:09,328 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-10 10:56:09,328 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-10 10:56:09,330 - Completed initialization in 2 ms
+[INFO]2022-07-10 10:56:09,497 - HikariPool-1 - Starting...
+[INFO]2022-07-10 10:56:09,669 - HikariPool-1 - Start completed.
+[WARN]2022-07-10 10:56:09,768 - Resolved [java.lang.NullPointerException]
+[WARN]2022-07-10 11:07:37,505 - Resolved [java.lang.NullPointerException]
+[WARN]2022-07-10 11:07:50,509 - Resolved [java.lang.NullPointerException]
+[WARN]2022-07-10 11:07:57,609 - Resolved [java.lang.NullPointerException]
