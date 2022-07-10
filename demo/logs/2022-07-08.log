@@ -1,0 +1,1403 @@
+[INFO]2022-07-08 13:02:52,336 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 23088 (D:\mybatis\vue-ssm2\demo2\target\classes started by 12094 in D:\mybatis\vue-ssm2\demo2)
+[INFO]2022-07-08 13:02:52,338 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 13:02:52,404 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-08 13:02:52,405 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-08 13:02:53,843 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 13:02:53,844 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 13:02:53,844 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 13:02:53,844 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 13:02:53,861 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 13:02:53,870 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:02:53,870 - Starting service [Tomcat]
+[INFO]2022-07-08 13:02:53,871 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 13:02:54,219 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 13:02:54,219 - Root WebApplicationContext: initialization completed in 1813 ms
+[INFO]2022-07-08 13:02:55,613 - Adding welcome page template: index
+[INFO]2022-07-08 13:02:55,938 - LiveReload server is running on port 35729
+[INFO]2022-07-08 13:02:55,954 - Starting ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:02:55,993 - Tomcat started on port(s): 8023 (http) with context path ''
+[INFO]2022-07-08 13:02:56,078 - Started DemoApplication in 4.547 seconds (JVM running for 6.508)
+[INFO]2022-07-08 13:05:55,016 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-08 13:05:55,016 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-08 13:05:55,017 - Completed initialization in 1 ms
+[INFO]2022-07-08 13:05:55,124 - HikariPool-1 - Starting...
+[INFO]2022-07-08 13:05:55,275 - HikariPool-1 - Start completed.
+[WARN]2022-07-08 13:05:55,320 - Resolved [java.lang.IllegalArgumentException: Result Maps collection does not contain value for com.test.demo.dao.DocDao.DocMap]
+[WARN]2022-07-08 13:06:41,141 - Resolved [java.lang.IllegalArgumentException: Result Maps collection does not contain value for com.test.demo.dao.DocDao.DocMap]
+[WARN]2022-07-08 13:06:48,123 - Resolved [java.lang.IllegalArgumentException: Result Maps collection does not contain value for com.test.demo.dao.DocDao.DocMap]
+[INFO]2022-07-08 13:08:27,153 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-08 13:08:27,162 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-08 13:08:27,407 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 23088 (D:\mybatis\vue-ssm2\demo2\target\classes started by 12094 in D:\mybatis\vue-ssm2\demo2)
+[INFO]2022-07-08 13:08:27,407 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 13:08:27,794 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 13:08:27,794 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 13:08:27,794 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 13:08:27,794 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 13:08:27,795 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 13:08:27,795 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:08:27,795 - Starting service [Tomcat]
+[INFO]2022-07-08 13:08:27,795 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 13:08:27,885 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 13:08:27,885 - Root WebApplicationContext: initialization completed in 477 ms
+[WARN]2022-07-08 13:08:27,949 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.test.demo.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+[INFO]2022-07-08 13:08:27,949 - Stopping service [Tomcat]
+[ERROR]2022-07-08 13:08:28,003 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.test.demo.service.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.test.demo.service.UserService' in your configuration.
+
+[INFO]2022-07-08 13:08:30,579 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 23088 (D:\mybatis\vue-ssm2\demo2\target\classes started by 12094 in D:\mybatis\vue-ssm2\demo2)
+[INFO]2022-07-08 13:08:30,579 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 13:08:30,990 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 13:08:30,990 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 13:08:30,990 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 13:08:30,990 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 13:08:30,990 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 13:08:30,991 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:08:30,991 - Starting service [Tomcat]
+[INFO]2022-07-08 13:08:30,991 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 13:08:31,040 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 13:08:31,040 - Root WebApplicationContext: initialization completed in 452 ms
+[INFO]2022-07-08 13:08:31,184 - Adding welcome page template: index
+[INFO]2022-07-08 13:08:31,323 - LiveReload server is running on port 35729
+[INFO]2022-07-08 13:08:31,337 - Starting ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:08:31,342 - Tomcat started on port(s): 8023 (http) with context path ''
+[INFO]2022-07-08 13:08:31,367 - Started DemoApplication in 0.893 seconds (JVM running for 341.797)
+[INFO]2022-07-08 13:08:31,370 - Condition evaluation unchanged
+[INFO]2022-07-08 13:08:33,831 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 23088 (D:\mybatis\vue-ssm2\demo2\target\classes started by 12094 in D:\mybatis\vue-ssm2\demo2)
+[INFO]2022-07-08 13:08:33,831 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 13:08:34,063 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 13:08:34,064 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 13:08:34,064 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 13:08:34,064 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 13:08:34,064 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 13:08:34,064 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:08:34,065 - Starting service [Tomcat]
+[INFO]2022-07-08 13:08:34,065 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 13:08:34,161 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 13:08:34,161 - Root WebApplicationContext: initialization completed in 326 ms
+[WARN]2022-07-08 13:08:34,287 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.test.demo.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+[INFO]2022-07-08 13:08:34,288 - Stopping service [Tomcat]
+[ERROR]2022-07-08 13:08:34,327 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.test.demo.service.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.test.demo.service.UserService' in your configuration.
+
+[INFO]2022-07-08 13:08:36,839 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 23088 (D:\mybatis\vue-ssm2\demo2\target\classes started by 12094 in D:\mybatis\vue-ssm2\demo2)
+[INFO]2022-07-08 13:08:36,839 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 13:08:37,140 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 13:08:37,141 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 13:08:37,141 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 13:08:37,141 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 13:08:37,141 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 13:08:37,141 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:08:37,142 - Starting service [Tomcat]
+[INFO]2022-07-08 13:08:37,142 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 13:08:37,220 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 13:08:37,220 - Root WebApplicationContext: initialization completed in 379 ms
+[WARN]2022-07-08 13:08:37,284 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.test.demo.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+[INFO]2022-07-08 13:08:37,284 - Stopping service [Tomcat]
+[ERROR]2022-07-08 13:08:37,313 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.test.demo.service.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.test.demo.service.UserService' in your configuration.
+
+[INFO]2022-07-08 13:08:38,788 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 23088 (D:\mybatis\vue-ssm2\demo2\target\classes started by 12094 in D:\mybatis\vue-ssm2\demo2)
+[INFO]2022-07-08 13:08:38,789 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 13:08:38,967 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 13:08:38,967 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 13:08:38,967 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 13:08:38,967 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 13:08:38,967 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 13:08:38,968 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:08:38,968 - Starting service [Tomcat]
+[INFO]2022-07-08 13:08:38,968 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 13:08:39,019 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 13:08:39,019 - Root WebApplicationContext: initialization completed in 229 ms
+[WARN]2022-07-08 13:08:39,070 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.test.demo.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+[INFO]2022-07-08 13:08:39,070 - Stopping service [Tomcat]
+[ERROR]2022-07-08 13:08:39,097 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.test.demo.service.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.test.demo.service.UserService' in your configuration.
+
+[INFO]2022-07-08 13:08:41,623 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 23088 (D:\mybatis\vue-ssm2\demo2\target\classes started by 12094 in D:\mybatis\vue-ssm2\demo2)
+[INFO]2022-07-08 13:08:41,623 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 13:08:41,795 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 13:08:41,795 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 13:08:41,795 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 13:08:41,795 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 13:08:41,795 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 13:08:41,795 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:08:41,795 - Starting service [Tomcat]
+[INFO]2022-07-08 13:08:41,796 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 13:08:41,845 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 13:08:41,845 - Root WebApplicationContext: initialization completed in 220 ms
+[INFO]2022-07-08 13:08:41,946 - Adding welcome page template: index
+[INFO]2022-07-08 13:08:42,020 - LiveReload server is running on port 35729
+[INFO]2022-07-08 13:08:42,023 - Starting ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:08:42,025 - Tomcat started on port(s): 8023 (http) with context path ''
+[INFO]2022-07-08 13:08:42,036 - Started DemoApplication in 0.436 seconds (JVM running for 352.466)
+[INFO]2022-07-08 13:08:42,037 - Condition evaluation unchanged
+[INFO]2022-07-08 13:10:37,283 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 23088 (D:\mybatis\vue-ssm2\demo2\target\classes started by 12094 in D:\mybatis\vue-ssm2\demo2)
+[INFO]2022-07-08 13:10:37,284 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 13:10:37,712 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 13:10:37,712 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 13:10:37,712 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 13:10:37,712 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 13:10:37,712 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 13:10:37,713 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:10:37,713 - Starting service [Tomcat]
+[INFO]2022-07-08 13:10:37,713 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 13:10:37,775 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 13:10:37,775 - Root WebApplicationContext: initialization completed in 489 ms
+[INFO]2022-07-08 13:10:37,892 - Adding welcome page template: index
+[INFO]2022-07-08 13:10:37,974 - LiveReload server is running on port 35729
+[INFO]2022-07-08 13:10:38,000 - Starting ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:10:38,004 - Tomcat started on port(s): 8023 (http) with context path ''
+[INFO]2022-07-08 13:10:38,018 - Started DemoApplication in 0.77 seconds (JVM running for 468.448)
+[INFO]2022-07-08 13:10:38,020 - Condition evaluation unchanged
+[INFO]2022-07-08 13:11:27,218 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 23088 (D:\mybatis\vue-ssm2\demo2\target\classes started by 12094 in D:\mybatis\vue-ssm2\demo2)
+[INFO]2022-07-08 13:11:27,219 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 13:11:27,541 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 13:11:27,541 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 13:11:27,541 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 13:11:27,541 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 13:11:27,541 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 13:11:27,542 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:11:27,542 - Starting service [Tomcat]
+[INFO]2022-07-08 13:11:27,542 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 13:11:27,588 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 13:11:27,588 - Root WebApplicationContext: initialization completed in 368 ms
+[INFO]2022-07-08 13:11:27,689 - Adding welcome page template: index
+[INFO]2022-07-08 13:11:27,761 - LiveReload server is running on port 35729
+[INFO]2022-07-08 13:11:27,765 - Starting ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:11:27,767 - Tomcat started on port(s): 8023 (http) with context path ''
+[INFO]2022-07-08 13:11:27,775 - Started DemoApplication in 0.582 seconds (JVM running for 518.204)
+[INFO]2022-07-08 13:11:27,775 - Condition evaluation unchanged
+[INFO]2022-07-08 13:11:36,483 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-08 13:11:36,484 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-08 13:11:36,484 - Completed initialization in 0 ms
+[INFO]2022-07-08 13:11:36,492 - HikariPool-2 - Starting...
+[INFO]2022-07-08 13:11:36,497 - HikariPool-2 - Start completed.
+[WARN]2022-07-08 13:11:36,504 - Resolved [java.lang.IllegalArgumentException: Result Maps collection does not contain value for com.test.demo.dao.DocDao.DocMap]
+[WARN]2022-07-08 13:12:01,141 - Resolved [java.lang.IllegalArgumentException: Result Maps collection does not contain value for com.test.demo.dao.DocDao.DocMap]
+[INFO]2022-07-08 13:12:41,523 - HikariPool-2 - Shutdown initiated...
+[INFO]2022-07-08 13:12:41,526 - HikariPool-2 - Shutdown completed.
+[INFO]2022-07-08 13:12:41,621 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 23088 (D:\mybatis\vue-ssm2\demo2\target\classes started by 12094 in D:\mybatis\vue-ssm2\demo2)
+[INFO]2022-07-08 13:12:41,621 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 13:12:41,978 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 13:12:41,978 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 13:12:41,978 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 13:12:41,979 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 13:12:41,979 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 13:12:41,980 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:12:41,980 - Starting service [Tomcat]
+[INFO]2022-07-08 13:12:41,980 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 13:12:42,073 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 13:12:42,073 - Root WebApplicationContext: initialization completed in 451 ms
+[INFO]2022-07-08 13:12:42,199 - Adding welcome page template: index
+[INFO]2022-07-08 13:12:42,288 - LiveReload server is running on port 35729
+[INFO]2022-07-08 13:12:42,294 - Starting ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:12:42,296 - Tomcat started on port(s): 8023 (http) with context path ''
+[INFO]2022-07-08 13:12:42,317 - Started DemoApplication in 0.72 seconds (JVM running for 592.746)
+[INFO]2022-07-08 13:12:42,318 - Condition evaluation unchanged
+[INFO]2022-07-08 13:12:44,504 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 23088 (D:\mybatis\vue-ssm2\demo2\target\classes started by 12094 in D:\mybatis\vue-ssm2\demo2)
+[INFO]2022-07-08 13:12:44,505 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 13:12:44,808 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 13:12:44,809 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 13:12:44,809 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 13:12:44,809 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 13:12:44,809 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 13:12:44,809 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:12:44,809 - Starting service [Tomcat]
+[INFO]2022-07-08 13:12:44,810 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 13:12:44,891 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 13:12:44,892 - Root WebApplicationContext: initialization completed in 385 ms
+[INFO]2022-07-08 13:12:45,030 - Adding welcome page template: index
+[INFO]2022-07-08 13:12:45,108 - LiveReload server is running on port 35729
+[INFO]2022-07-08 13:12:45,113 - Starting ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:12:45,115 - Tomcat started on port(s): 8023 (http) with context path ''
+[INFO]2022-07-08 13:12:45,138 - Started DemoApplication in 0.684 seconds (JVM running for 595.568)
+[INFO]2022-07-08 13:12:45,140 - Condition evaluation unchanged
+[INFO]2022-07-08 13:14:00,771 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 21536 (D:\mybatis\vue-ssm2\demo2\target\classes started by 12094 in D:\mybatis\vue-ssm2\demo2)
+[INFO]2022-07-08 13:14:00,772 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 13:14:00,823 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-08 13:14:00,823 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-08 13:14:02,004 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 13:14:02,004 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 13:14:02,004 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 13:14:02,005 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 13:14:02,008 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 13:14:02,014 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:14:02,015 - Starting service [Tomcat]
+[INFO]2022-07-08 13:14:02,015 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 13:14:02,302 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 13:14:02,302 - Root WebApplicationContext: initialization completed in 1478 ms
+[INFO]2022-07-08 13:14:02,769 - Adding welcome page template: index
+[INFO]2022-07-08 13:14:02,917 - LiveReload server is running on port 35729
+[INFO]2022-07-08 13:14:02,928 - Starting ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:14:02,944 - Tomcat started on port(s): 8023 (http) with context path ''
+[INFO]2022-07-08 13:14:02,974 - Started DemoApplication in 2.611 seconds (JVM running for 4.225)
+[INFO]2022-07-08 13:14:12,288 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-08 13:14:12,288 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-08 13:14:12,289 - Completed initialization in 1 ms
+[INFO]2022-07-08 13:14:12,382 - HikariPool-1 - Starting...
+[INFO]2022-07-08 13:14:12,477 - HikariPool-1 - Start completed.
+[WARN]2022-07-08 13:14:12,508 - Resolved [java.lang.IllegalArgumentException: Result Maps collection does not contain value for com.test.demo.dao.DocDao.DocMap]
+[INFO]2022-07-08 13:14:39,968 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-08 13:14:39,986 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-08 13:14:40,244 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 21536 (D:\mybatis\vue-ssm2\demo2\target\classes started by 12094 in D:\mybatis\vue-ssm2\demo2)
+[INFO]2022-07-08 13:14:40,245 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 13:14:40,726 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 13:14:40,726 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 13:14:40,726 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 13:14:40,727 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 13:14:40,727 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 13:14:40,727 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:14:40,727 - Starting service [Tomcat]
+[INFO]2022-07-08 13:14:40,727 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 13:14:40,804 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 13:14:40,804 - Root WebApplicationContext: initialization completed in 556 ms
+[INFO]2022-07-08 13:14:40,961 - Adding welcome page template: index
+[INFO]2022-07-08 13:14:41,046 - LiveReload server is running on port 35729
+[INFO]2022-07-08 13:14:41,053 - Starting ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:14:41,056 - Tomcat started on port(s): 8023 (http) with context path ''
+[INFO]2022-07-08 13:14:41,080 - Started DemoApplication in 0.885 seconds (JVM running for 42.332)
+[INFO]2022-07-08 13:14:41,083 - Condition evaluation unchanged
+[INFO]2022-07-08 13:14:48,269 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-08 13:14:48,271 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-08 13:14:48,271 - Completed initialization in 0 ms
+[INFO]2022-07-08 13:14:48,289 - HikariPool-2 - Starting...
+[INFO]2022-07-08 13:14:48,293 - HikariPool-2 - Start completed.
+[INFO]2022-07-08 13:15:16,918 - HikariPool-2 - Shutdown initiated...
+[INFO]2022-07-08 13:15:16,923 - HikariPool-2 - Shutdown completed.
+[INFO]2022-07-08 13:15:17,119 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 21536 (D:\mybatis\vue-ssm2\demo2\target\classes started by 12094 in D:\mybatis\vue-ssm2\demo2)
+[INFO]2022-07-08 13:15:17,119 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 13:15:17,463 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 13:15:17,463 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 13:15:17,463 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 13:15:17,463 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 13:15:17,464 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 13:15:17,464 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:15:17,464 - Starting service [Tomcat]
+[INFO]2022-07-08 13:15:17,464 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 13:15:17,529 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 13:15:17,529 - Root WebApplicationContext: initialization completed in 408 ms
+[INFO]2022-07-08 13:15:17,670 - Adding welcome page template: index
+[INFO]2022-07-08 13:15:17,742 - LiveReload server is running on port 35729
+[INFO]2022-07-08 13:15:17,748 - Starting ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:15:17,750 - Tomcat started on port(s): 8023 (http) with context path ''
+[INFO]2022-07-08 13:15:17,770 - Started DemoApplication in 0.677 seconds (JVM running for 79.022)
+[INFO]2022-07-08 13:15:17,771 - Condition evaluation unchanged
+[INFO]2022-07-08 13:15:20,854 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 21536 (D:\mybatis\vue-ssm2\demo2\target\classes started by 12094 in D:\mybatis\vue-ssm2\demo2)
+[INFO]2022-07-08 13:15:20,854 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 13:15:21,038 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 13:15:21,038 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 13:15:21,038 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 13:15:21,038 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 13:15:21,038 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 13:15:21,039 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:15:21,039 - Starting service [Tomcat]
+[INFO]2022-07-08 13:15:21,039 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 13:15:21,086 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 13:15:21,086 - Root WebApplicationContext: initialization completed in 231 ms
+[INFO]2022-07-08 13:15:21,199 - Adding welcome page template: index
+[INFO]2022-07-08 13:15:21,278 - LiveReload server is running on port 35729
+[INFO]2022-07-08 13:15:21,281 - Starting ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 13:15:21,283 - Tomcat started on port(s): 8023 (http) with context path ''
+[INFO]2022-07-08 13:15:21,291 - Started DemoApplication in 0.46 seconds (JVM running for 82.542)
+[INFO]2022-07-08 13:15:21,292 - Condition evaluation unchanged
+[INFO]2022-07-08 13:15:25,107 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-08 13:15:25,108 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-08 13:15:25,108 - Completed initialization in 0 ms
+[INFO]2022-07-08 13:15:25,115 - HikariPool-3 - Starting...
+[INFO]2022-07-08 13:15:25,121 - HikariPool-3 - Start completed.
+[INFO]2022-07-08 21:00:20,364 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 38756 (D:\mybatis\vue-ssm3\demo\target\classes started by 12094 in D:\mybatis\vue-ssm3\demo)
+[INFO]2022-07-08 21:00:20,365 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 21:00:20,406 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-08 21:00:20,406 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[WARN]2022-07-08 21:00:21,197 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.test.demo.controller.CategoryController [Xlint:invalidAbsoluteTypeName]
+[ERROR]2022-07-08 21:00:21,247 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.test.demo.controller.CategoryController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.test.demo.DemoApplication.main(DemoApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.test.demo.controller.CategoryController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$216/281055752.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:217)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.test.demo.controller.CategoryController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$216/281055752.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$216/281055752.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:255)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: com.test.demo.controller.CategoryController [Xlint:invalidAbsoluteTypeName]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:341)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:455)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 45 common frames omitted
+[INFO]2022-07-08 21:03:02,377 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 39280 (D:\mybatis\vue-ssm3\demo\target\classes started by 12094 in D:\mybatis\vue-ssm3\demo)
+[INFO]2022-07-08 21:03:02,377 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 21:03:02,415 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-08 21:03:02,415 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[WARN]2022-07-08 21:03:03,105 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.test.demo.controller.CategoryController [Xlint:invalidAbsoluteTypeName]
+[ERROR]2022-07-08 21:03:03,151 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.test.demo.controller.CategoryController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.test.demo.DemoApplication.main(DemoApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.test.demo.controller.CategoryController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/1270387100.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:217)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.test.demo.controller.CategoryController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/1270387100.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/1270387100.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:255)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: com.test.demo.controller.CategoryController [Xlint:invalidAbsoluteTypeName]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:341)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:455)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 45 common frames omitted
+[INFO]2022-07-08 21:05:30,317 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 41800 (D:\mybatis\vue-ssm3\demo\target\classes started by 12094 in D:\mybatis\vue-ssm3\demo)
+[INFO]2022-07-08 21:05:30,318 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 21:05:30,362 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-08 21:05:30,362 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-08 21:05:31,420 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 21:05:31,421 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 21:05:31,421 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 21:05:31,421 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 21:05:31,426 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 21:05:31,436 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 21:05:31,437 - Starting service [Tomcat]
+[INFO]2022-07-08 21:05:31,437 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 21:05:31,753 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 21:05:31,754 - Root WebApplicationContext: initialization completed in 1391 ms
+[INFO]2022-07-08 21:05:32,263 - Adding welcome page template: index
+[WARN]2022-07-08 21:05:32,406 - Unable to start LiveReload server
+[INFO]2022-07-08 21:05:32,423 - Starting ProtocolHandler ["http-nio-8023"]
+[WARN]2022-07-08 21:05:32,427 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8023 is already in use
+[INFO]2022-07-08 21:05:32,434 - Pausing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 21:05:32,434 - Stopping service [Tomcat]
+[INFO]2022-07-08 21:05:32,437 - Stopping ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 21:05:32,438 - Destroying ProtocolHandler ["http-nio-8023"]
+[ERROR]2022-07-08 21:05:32,491 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8023 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8023 or configure this application to listen on another port.
+
+[INFO]2022-07-08 21:06:05,834 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 15312 (D:\mybatis\vue-ssm3\demo\target\classes started by 12094 in D:\mybatis\vue-ssm3\demo)
+[INFO]2022-07-08 21:06:05,835 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 21:06:05,873 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-08 21:06:05,874 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-08 21:06:06,853 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 21:06:06,854 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 21:06:06,854 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 21:06:06,855 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 21:06:06,858 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 21:06:06,864 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 21:06:06,865 - Starting service [Tomcat]
+[INFO]2022-07-08 21:06:06,865 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 21:06:07,154 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 21:06:07,154 - Root WebApplicationContext: initialization completed in 1280 ms
+[INFO]2022-07-08 21:06:07,654 - Adding welcome page template: index
+[INFO]2022-07-08 21:06:07,797 - LiveReload server is running on port 35729
+[INFO]2022-07-08 21:06:07,808 - Starting ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 21:06:07,825 - Tomcat started on port(s): 8023 (http) with context path ''
+[INFO]2022-07-08 21:06:07,848 - Started DemoApplication in 2.383 seconds (JVM running for 4.021)
+[INFO]2022-07-08 21:06:21,211 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-08 21:06:21,211 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-08 21:06:21,213 - Completed initialization in 1 ms
+[INFO]2022-07-08 21:07:27,031 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 15312 (D:\mybatis\vue-ssm3\demo\target\classes started by 12094 in D:\mybatis\vue-ssm3\demo)
+[INFO]2022-07-08 21:07:27,031 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 21:07:27,434 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 21:07:27,434 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 21:07:27,434 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 21:07:27,434 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 21:07:27,434 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 21:07:27,435 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 21:07:27,435 - Starting service [Tomcat]
+[INFO]2022-07-08 21:07:27,435 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 21:07:27,536 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 21:07:27,537 - Root WebApplicationContext: initialization completed in 503 ms
+[WARN]2022-07-08 21:07:27,631 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+[INFO]2022-07-08 21:07:27,632 - Stopping service [Tomcat]
+[ERROR]2022-07-08 21:07:27,698 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.test.demo.DemoApplication.main(DemoApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 53 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 67 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c$$FastClassBySpringCGLIB$$9ebd13c2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 68 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:263)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:127)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:81)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 81 common frames omitted
+Caused by: org.xml.sax.SAXParseException: 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:261)
+	... 84 common frames omitted
+[INFO]2022-07-08 21:07:48,696 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 15312 (D:\mybatis\vue-ssm3\demo\target\classes started by 12094 in D:\mybatis\vue-ssm3\demo)
+[INFO]2022-07-08 21:07:48,696 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 21:07:48,965 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 21:07:48,965 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 21:07:48,966 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 21:07:48,966 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 21:07:48,966 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 21:07:48,967 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 21:07:48,967 - Starting service [Tomcat]
+[INFO]2022-07-08 21:07:48,967 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 21:07:49,057 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 21:07:49,058 - Root WebApplicationContext: initialization completed in 360 ms
+[WARN]2022-07-08 21:07:49,158 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+[INFO]2022-07-08 21:07:49,159 - Stopping service [Tomcat]
+[ERROR]2022-07-08 21:07:49,189 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.test.demo.DemoApplication.main(DemoApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 53 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 67 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c$$FastClassBySpringCGLIB$$9ebd13c2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 68 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:263)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:127)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:81)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 81 common frames omitted
+Caused by: org.xml.sax.SAXParseException: 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:261)
+	... 84 common frames omitted
+[INFO]2022-07-08 21:08:12,258 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 15312 (D:\mybatis\vue-ssm3\demo\target\classes started by 12094 in D:\mybatis\vue-ssm3\demo)
+[INFO]2022-07-08 21:08:12,258 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 21:08:12,645 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 21:08:12,645 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 21:08:12,647 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 21:08:12,647 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 21:08:12,647 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 21:08:12,647 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 21:08:12,647 - Starting service [Tomcat]
+[INFO]2022-07-08 21:08:12,647 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 21:08:12,700 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 21:08:12,700 - Root WebApplicationContext: initialization completed in 441 ms
+[WARN]2022-07-08 21:08:12,759 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+[INFO]2022-07-08 21:08:12,759 - Stopping service [Tomcat]
+[ERROR]2022-07-08 21:08:12,787 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.test.demo.DemoApplication.main(DemoApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 53 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 67 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c$$FastClassBySpringCGLIB$$9ebd13c2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 68 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:263)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:127)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:81)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 81 common frames omitted
+Caused by: org.xml.sax.SAXParseException: 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:261)
+	... 84 common frames omitted
+[INFO]2022-07-08 21:08:31,706 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 15312 (D:\mybatis\vue-ssm3\demo\target\classes started by 12094 in D:\mybatis\vue-ssm3\demo)
+[INFO]2022-07-08 21:08:31,706 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 21:08:31,933 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 21:08:31,933 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 21:08:31,933 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 21:08:31,933 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 21:08:31,933 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 21:08:31,934 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 21:08:31,934 - Starting service [Tomcat]
+[INFO]2022-07-08 21:08:31,934 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 21:08:31,995 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 21:08:31,995 - Root WebApplicationContext: initialization completed in 286 ms
+[WARN]2022-07-08 21:08:32,093 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+[INFO]2022-07-08 21:08:32,093 - Stopping service [Tomcat]
+[ERROR]2022-07-08 21:08:32,134 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.test.demo.DemoApplication.main(DemoApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 53 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 67 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c$$FastClassBySpringCGLIB$$9ebd13c2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 68 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:263)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:127)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:81)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 81 common frames omitted
+Caused by: org.xml.sax.SAXParseException: 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:261)
+	... 84 common frames omitted
+[INFO]2022-07-08 21:08:44,927 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 15312 (D:\mybatis\vue-ssm3\demo\target\classes started by 12094 in D:\mybatis\vue-ssm3\demo)
+[INFO]2022-07-08 21:08:44,927 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 21:08:45,292 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 21:08:45,292 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 21:08:45,292 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 21:08:45,292 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 21:08:45,292 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 21:08:45,292 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 21:08:45,292 - Starting service [Tomcat]
+[INFO]2022-07-08 21:08:45,293 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 21:08:45,345 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 21:08:45,346 - Root WebApplicationContext: initialization completed in 415 ms
+[WARN]2022-07-08 21:08:45,387 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+[INFO]2022-07-08 21:08:45,387 - Stopping service [Tomcat]
+[ERROR]2022-07-08 21:08:45,415 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.test.demo.DemoApplication.main(DemoApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 53 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 67 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c$$FastClassBySpringCGLIB$$9ebd13c2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 68 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:263)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:127)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:81)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 81 common frames omitted
+Caused by: org.xml.sax.SAXParseException: 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:261)
+	... 84 common frames omitted
+[INFO]2022-07-08 21:09:05,380 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 15312 (D:\mybatis\vue-ssm3\demo\target\classes started by 12094 in D:\mybatis\vue-ssm3\demo)
+[INFO]2022-07-08 21:09:05,380 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 21:09:05,638 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 21:09:05,638 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 21:09:05,639 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 21:09:05,639 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 21:09:05,639 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 21:09:05,639 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 21:09:05,639 - Starting service [Tomcat]
+[INFO]2022-07-08 21:09:05,639 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 21:09:05,703 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 21:09:05,703 - Root WebApplicationContext: initialization completed in 320 ms
+[WARN]2022-07-08 21:09:05,781 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+[INFO]2022-07-08 21:09:05,781 - Stopping service [Tomcat]
+[ERROR]2022-07-08 21:09:05,799 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.test.demo.DemoApplication.main(DemoApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminDao' defined in file [D:\mybatis\vue-ssm3\demo\target\classes\com\test\demo\dao\AdminDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$222/709257650.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 53 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 67 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\mybatis\vue-ssm3\demo\target\classes\mapper\NeedsDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c$$FastClassBySpringCGLIB$$9ebd13c2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ec616e7c.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 68 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 171; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:263)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:127)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:81)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 81 common frames omitted
+Caused by: org.xml.sax.SAXParseException: 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:261)
+	... 84 common frames omitted
+[INFO]2022-07-08 21:27:29,304 - Starting DemoApplication using Java 1.8.0_45 on LAPTOP-VH4VGU5A with PID 34548 (D:\mybatis\vue-ssm3\demo\target\classes started by 12094 in D:\mybatis\vue-ssm3\demo)
+[INFO]2022-07-08 21:27:29,305 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-08 21:27:29,343 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-08 21:27:29,343 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-08 21:27:30,305 - Tomcat initialized with port(s): 8023 (http)
+[INFO]2022-07-08 21:27:30,306 - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[INFO]2022-07-08 21:27:30,306 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2022-07-08 21:27:30,306 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2022-07-08 21:27:30,308 - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[INFO]2022-07-08 21:27:30,313 - Initializing ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 21:27:30,314 - Starting service [Tomcat]
+[INFO]2022-07-08 21:27:30,314 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-08 21:27:30,623 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-08 21:27:30,623 - Root WebApplicationContext: initialization completed in 1279 ms
+[INFO]2022-07-08 21:27:31,182 - Adding welcome page template: index
+[INFO]2022-07-08 21:27:31,330 - LiveReload server is running on port 35729
+[INFO]2022-07-08 21:27:31,338 - Starting ProtocolHandler ["http-nio-8023"]
+[INFO]2022-07-08 21:27:31,355 - Tomcat started on port(s): 8023 (http) with context path ''
+[INFO]2022-07-08 21:27:31,391 - Started DemoApplication in 2.425 seconds (JVM running for 4.003)
+[INFO]2022-07-08 21:31:40,149 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-08 21:31:40,149 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-08 21:31:40,151 - Completed initialization in 2 ms
