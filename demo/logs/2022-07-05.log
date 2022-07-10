@@ -1,0 +1,18 @@
+[INFO]2022-07-05 19:02:37,859 - Starting DemoApplication using Java 1.8.0_201 on LAPTOP-FAONMKSI with PID 20044 (D:\石河子&交大\demo\target\classes started by LENOVO in D:\石河子&交大\demo)
+[INFO]2022-07-05 19:02:37,861 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-05 19:02:37,912 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-05 19:02:37,912 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-05 19:02:39,297 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-05 19:02:39,310 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-05 19:02:39,311 - Starting service [Tomcat]
+[INFO]2022-07-05 19:02:39,312 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-05 19:02:39,403 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-05 19:02:39,403 - Root WebApplicationContext: initialization completed in 1490 ms
+[INFO]2022-07-05 19:02:40,358 - Adding welcome page template: index
+[INFO]2022-07-05 19:02:40,539 - LiveReload server is running on port 35729
+[INFO]2022-07-05 19:02:40,552 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-05 19:02:40,564 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-05 19:02:40,587 - Started DemoApplication in 3.1 seconds (JVM running for 3.992)
+[INFO]2022-07-05 19:02:48,697 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-05 19:02:48,697 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-05 19:02:48,699 - Completed initialization in 2 ms
